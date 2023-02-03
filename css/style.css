@@ -88,7 +88,7 @@ img {
 /* STEPS SECTION */
 .steps {
     margin: 3rem 0;
-    padding: 3rem 0 0;
+    padding: 3rem 0;
     color: #232946;
     background: #eebbc3;
 }
@@ -219,11 +219,5 @@ img {
     }
  }
 
- /* Bonus */
 
- @media all and (min-width: 768px) and (max-width: 1160px){
-    .container {
-        max-width: 1160px;
-    }
- }
 
