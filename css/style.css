@@ -88,7 +88,7 @@ img {
 /* STEPS SECTION */
 .steps {
     margin: 3rem 0;
-    padding: 3rem 0;
+    padding: 3rem 0 0;
     color: #232946;
     background: #eebbc3;
 }
@@ -131,6 +131,89 @@ img {
  @media all and (max-width: 768px) {
     .container {
         max-width: 768px;
+    }
+ }
+
+ @media all and (max-width: 480px) {
+    .container {
+        max-width: 480px;       
+    }
+
+    .why-us {
+        background-color: rgb(34, 34, 34);
+    }
+
+    .site-header {
+        margin-top: 4rem;
+    }
+
+    h1 {
+        margin-bottom: 4.4rem;
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        margin-bottom: 3.1rem;
+        font-size: 2.6rem;
+    }
+
+    h3 {
+        margin-bottom: 1.4rem;
+        font-size: 2.0rem;
+    }
+
+    .card .text {
+        font-size: 1.4rem;
+        margin-bottom: 5rem;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .lessons .col img {
+        height: 270px;
+        margin-bottom: 1.5rem;
+    }
+
+    .lessons p:last-child, .steps p:last-child {
+        margin-bottom: 65px;
+    }
+
+    .steps {
+        margin: 0;
+        padding-top: 4rem;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+    
+    .steps .col img {
+        height: 260px;
+        margin-bottom: 1.5rem;
+    }
+
+    .container:last-child {
+        padding-top: 55px;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+        margin-top: 80px;
+        padding: 0 5px;
+    }
+
+    .why-us .col-right p {
+       font-size: 1.3rem;
     }
  }
 
