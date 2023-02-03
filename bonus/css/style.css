@@ -131,7 +131,6 @@ img {
  @media all and (max-width: 768px) {
     .container {
         max-width: 768px;
-        margin-bottom: 40px;
     }
  }
 
@@ -216,14 +215,6 @@ img {
 
     .why-us .col-right p {
        font-size: 1.3rem;
-    }
- }
-
- /* Bonus */
-
- @media all and (min-width: 768px) and (max-width: 1160px){
-    .container {
-        max-width: 1160px;
     }
  }
 
